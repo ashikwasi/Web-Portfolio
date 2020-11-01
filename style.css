@@ -7,3 +7,15 @@ font-size: 50px;
 .name-color{
 color: orange;
 }
+p{
+    text-align: justify;
+}
+.top-part-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.top-part-half img{
+    width: 100%;
+}
