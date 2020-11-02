@@ -11,7 +11,7 @@ h2{
 p{
     color:dimgray;
 }
-.name-color{
+.orange-color{
     color:orange;
 }
 .half-width{
@@ -22,6 +22,7 @@ p{
 }
 .half-width img{
     width: 100%;
+    padding-top: 20px;
 }
 .top-banner{
     background-image: url("imagess/top-banner.png");
@@ -51,4 +52,28 @@ section{
     background-image: url("imagess/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 80%;
+}
+.experience-area{
+    background-image: url("imagess/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fill-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon , tomato);
+    border-image-slice: 1;
+}
+#Noobe{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
